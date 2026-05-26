@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Frustm - Minimalist Studio Home</title>
+    <link rel="icon" href="Fav.png" type="image/png"/>
+    <link rel="apple-touch-icon" href="Fav.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">Frustm</span>
+            </div>
+            <div class="nav-links">
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#games">Games</a>
+                <a class="nav-link" href="careers.html">Career</a>
+            </div>
+            <button class="nav-toggle" type="button" aria-label="Toggle menu">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+        <div class="nav-mobile">
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#games">Games</a>
+            <a class="nav-link" href="careers.html">Career</a>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero-header">
+            <img src="Header1.png" alt="Frustm - Creative studio with playful characters" class="hero-header-img"/>
+        </header>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-inner">
+                    <h2 class="about-heading">About Us</h2>
+                    <p class="about-text">
+                        Frustm is a mobile game studio building bold, visually striking games with strong, scalable mechanics.
+                    </p>
+                    <p class="about-text">
+                        We're a small, experienced team, focused on rapid prototyping, smart iteration, and player-first design.
+                    </p>
+                    <p class="about-text">
+                        Our mission is simple: create games that stand out, perform, and scale globally.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-games" id="our-games">
+            <div class="container">
+                <h2 class="our-games-heading">Our Games</h2>
+                
+                <div class="game-showcase">
+                    <div class="game-showcase-content">
+                        <h3 class="game-showcase-title">Jello Train</h3>
+                        <p class="game-showcase-desc">A fun and addictive train puzzle game that challenges your logic and timing skills</p>
+                        <a href="#" class="game-showcase-more">More ></a>
+                        <div class="game-showcase-badges">
+                            <a href="https://play.google.com/store/apps/details?id=com.frustm.jellotrain" target="_blank" rel="noopener noreferrer" class="badge-link">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" class="store-badge"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="game-showcase-image">
+                        <img src="Group 1277(2).png" alt="Jello Train game on phone" class="phone-mockup"/>
+                    </div>
+                </div>
+
+                <div class="game-showcase">
+                    <div class="game-showcase-image">
+                        <img src="Idle Tower Rush.png" alt="Idle Tower Rush game on phone" class="phone-mockup"/>
+                    </div>
+                    <div class="game-showcase-content">
+                        <h3 class="game-showcase-title">Idle Tower Rush</h3>
+                        <p class="game-showcase-desc">Build and defend your tower in this exciting idle strategy game!</p>
+                        <a href="#" class="game-showcase-more">More ></a>
+                        <div class="game-showcase-badges">
+                            <a href="https://play.google.com/store/apps/details?id=com.hideseek.idletowerrush&hl=en" target="_blank" rel="noopener noreferrer" class="badge-link">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" class="store-badge"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="values" id="values">
+            <div class="container">
+                <h2 class="our-values-heading">Our Values</h2>
+                <div class="values-list">
+                    <div class="value-card">
+                        <p class="value-card-text"><strong>Obsession:</strong> We start with the player experience and work backwards. Every pixel matters.</p>
+                    </div>
+                    <div class="value-card">
+                        <p class="value-card-text"><strong>Candor:</strong> Radical honesty. We challenge ideas, not people, to reach the absolute best outcome.</p>
+                    </div>
+                    <div class="value-card">
+                        <p class="value-card-text"><strong>Innovation:</strong> Fail fast, learn faster. We push boundaries to define the future.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="careers" id="careers">
+            <div class="container">
+                <div class="careers-inner">
+                    <div class="careers-content">
+                        <h2 class="careers-heading">Careers</h2>
+                        <p class="careers-desc">Your opportunity to take ownership and make an impact awaits here!</p>
+                        <a href="careers.html" class="careers-btn">See More</a>
+                    </div>
+                    <div class="careers-image-wrap">
+                        <img src="Careers.png" alt="Careers at Frustm - Join our team" class="careers-image"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="contact-heading">Contact Us</h2>
+                <form id="form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contact-name">Name</label>
+                            <input type="text" id="contact-name" name="name" required placeholder="Your name"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" name="email" required placeholder="your@email.com"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-subject">Subject</label>
+                        <input type="text" id="contact-subject" name="subject" placeholder="How can we help?"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" name="message" rows="5" required placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="contact-submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="footer-brand-text">Frustm</span>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy</a>
+                    <a href="terms.html">Terms</a>
+                </div>
+                <p class="footer-copyright">All rights reserved. © <span id="year"></span> - Frustm LLC</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
